@@ -1,11 +1,13 @@
-/* ==========================================================
-   site.config.js : 내 Firebase 연결 + 관리자 이메일
-   ----------------------------------------------------------
-   직접 고치지 마세요. 사이트 주소 뒤에 #setup 을 붙여 열면
-   설치 화면이 이 파일을 만들어 줘요. (내려받아서 이 파일을 덮어쓰기)
-   값이 비어 있으면 사이트는 원본 그대로 동작하고, #admin 은 설치 화면을 보여줘요.
-   ========================================================== */
+/* site.config.js : 내 Firebase 연결 + 관리자 이메일 (공개되어도 되는 값이에요) */
 window.SITE_CONFIG = {
-  firebase: {},
-  admin: { email: "" }
+  firebase: {
+    apiKey: "AIzaSyA5gMykOOqg-gQbGIxOxashWa6msAiFmG0",
+    authDomain: "yuilseong000.firebaseapp.com",
+    projectId: "yuilseong000",
+    storageBucket: "yuilseong000.firebasestorage.app",
+    messagingSenderId: "51585279015",
+    appId: "1:51585279015:web:bcff984b8bab2b077cda02",
+    measurementId: "G-1WM0CQ2FX5"
+  },
+  admin: { email: "yuilseong037@gmail.com" }
 };
